@@ -1,0 +1,63 @@
+.hero-img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-image:url("https://iili.io/VJnZ3N.md.jpg");
+    // background-image: url('/src/images/hero-img-2x.jpg');
+    .hero-content{
+        padding: 25% 0;
+        .heading-lg{
+            margin-bottom: 8px;
+        }
+        .text-sm{
+            margin-bottom: 40px;
+        }
+        .input-container{
+            background-color: $color-white;
+            border-radius: 10px;
+            max-width: 635px;
+            .dropdown-btn{
+                outline: none;
+                background-color: transparent;
+                cursor: pointer;
+                border: none;
+                padding: 20px;
+                border-right: 1px solid $color-white20;
+                a{
+                    display: none;
+                }
+            }
+            .down-arrow{
+                margin-left: 20px;
+                border: solid $color-grey50;
+                border-width: 0 2px 2px 0;
+                display: inline-block;
+                padding: 3px;
+                transform: rotate(45deg);
+                -webkit-transform: rotate(45deg);
+            }
+            .search-icon{
+                fill: $primary-color;
+                height: 16px;
+                width: 16px;
+                margin: 0 16px 0 24px;
+                vertical-align: middle;
+            }
+            .input-field{
+                border: none;
+                width: 400px;
+                &:focus{
+                    outline: none;
+                }
+                &::placeholder{
+                    color: $color-grey50;
+                    @extend .text-tsm
+                }
+            }
+            // input[type="search"]{
+
+            // }
+        }
+    }
+    
+}

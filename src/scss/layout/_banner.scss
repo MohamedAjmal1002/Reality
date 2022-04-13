@@ -1,0 +1,46 @@
+.banner{
+    background-image:url("https://iili.io/VB3Eg4.md.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding: 130px 0;
+    .banner-card{
+        padding: 50px;
+        background-color: $color-white;
+        max-width: 540px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        small{
+            background-color: $color-orange;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .heading-md{
+            margin: 28px 0 8px 0;
+        }
+        address{
+            margin: 8px 0 24px 0;
+        }
+        span{
+            margin-right: 24px;
+        }
+    }
+    .contact{
+        padding: 20px 50px;
+        background-color: $color-white;
+        max-width: 540px;
+        border-radius: 5px;
+        .avator{
+            width: 50px;
+            height: 50px;
+        }
+        .btn-sm{
+            background-color: $primary-color;
+        }
+    }
+    svg{
+        width: 20px;
+        height: 16px;
+    }
+    
+}

@@ -1,0 +1,33 @@
+.header {
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    padding: 48px 0;
+    transition: background-color .5s linear;
+    &.active {
+       background-color: $primary-color;
+   }
+   .header-logo{
+       display: inline-block;
+       img{
+           width: 161px;
+           height: 42px;
+           display: block;
+       }
+   }
+   .nav-bar{
+       .nav-menu{
+           margin-left: 40px;
+           &:first-child{
+               margin-left: 50px;
+           }
+       }
+   }
+   .arrow-right{
+       fill: $color-white;
+       height: 20px;
+       width: 20px;
+   }
+}   

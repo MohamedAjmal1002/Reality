@@ -1,0 +1,21 @@
+.info{
+    padding: 100px 0;
+    .info-card{
+        width: calc(100% / 2 - 15px);
+        padding: 50px;
+        background-color: $primary-color;
+        border-radius: 5px;
+        &:first-child{
+            background-color: $color-grey10;
+        }
+        .heading-lg{
+            margin-bottom: 12px;
+        }
+        .address, .card-text{
+            margin-bottom: 20px;
+        }
+        .time{
+            margin-top: 20px;
+        }
+    }
+}
